@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>书灵 · 书架</title>
+<link rel="stylesheet" href="/ui.css">
+<style>
+  a.card { display: block; text-decoration: none; color: inherit; }
+</style>
+</head>
+<body>
+<div class="page">
+  <aside class="sidebar">
+    <div class="sidebar-brand">📖 书灵</div>
+    <nav class="sidebar-nav">
+      <a class="sidebar-link active" href="/">书架</a>
+      <a class="sidebar-link" href="/chat">对话</a>
+    </nav>
+  </aside>
+  <main class="page-main">
+    <div class="page-content">
+      <header class="page-header">
+        <div>
+          <h1>书架</h1>
+          <p class="page-header-desc">让书活过来，主动拥抱读者。点击一本书，和它的化身聊聊。</p>
+        </div>
+      </header>
+      <div class="card-grid" id="bookshelf"></div>
+    </div>
+  </main>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

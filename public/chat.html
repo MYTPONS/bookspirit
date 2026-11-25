@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>书灵 · 对话</title>
+<link rel="stylesheet" href="/ui.css">
+</head>
+<body>
+<div class="page">
+  <aside class="sidebar">
+    <div class="sidebar-brand">📖 书灵</div>
+    <nav class="sidebar-nav">
+      <a class="sidebar-link" href="/">书架</a>
+      <a class="sidebar-link active" href="/chat">对话</a>
+    </nav>
+  </aside>
+  <main class="page-main">
+    <div class="page-content">
+      <header class="page-header">
+        <div>
+          <h1 id="book-title">选择一本书开始</h1>
+          <p class="page-header-desc" id="book-desc"></p>
+        </div>
+      </header>
+      <div class="chat-thread" id="thread"></div>
+      <div class="composer">
+        <textarea class="textarea" id="input" rows="2" placeholder="和这本书的化身聊聊…"></textarea>
+        <button class="btn btn-primary" id="send">发送</button>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="/chat.js"></script>
+</body>
+</html>
